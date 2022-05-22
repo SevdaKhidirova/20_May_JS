@@ -1,0 +1,79 @@
+
+.task-card{
+    margin-top: 50px;
+    width: 40vw;
+    height: 80vh;
+    overflow: hidden;
+}
+.card{
+    width: 100%;
+    height: 100%!important;
+    box-shadow: 7px 3px 20px 2px;
+}
+.card-title{
+    font-size: 20px;
+    color: rgb(152, 206, 223);
+    font-family: 'Macondo', cursive;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+.title-image{
+    width: 100%;
+    min-height: 200px;
+    background-image: radial-gradient(rgba(25, 218, 202, 0.384),rgba(11, 93, 215, 0.808)), url("../img/title-pic.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.date{
+    float: right;
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+.bi-trash3{
+    cursor: pointer;
+}
+.bi-trash3:hover{
+    color: yellowgreen;
+}
+.input{
+    width: 100%;
+    height: 40px;
+}
+.input:focus{
+    border: none;
+    outline:none;
+}
+.addbtn{
+  width: 100%;
+}
+.list-group-item:hover{
+    transform: scaleX(1.01);
+}
+.list-group-item{
+    text-align: auto;
+}
+/* .ul-area{
+    overflow: scroll !important;
+    scroll-behavior: smooth;
+} */
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: 0px 0px 0px 0px!important;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: none!important;
+    box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+}

@@ -1,0 +1,57 @@
+.menu{
+    display: flex;
+    justify-content: end;
+}
+.menu li a{
+    transition: all .5s ease;
+}
+.menu li a:hover{
+   text-decoration: underline;
+}
+.card .price{
+   font-size: 20px;
+   color: green;
+   font-weight: 700;
+}
+.product-item{
+    position: relative;
+    transition: all .3s ease;
+}
+.product-item:hover{
+    transform: scale(1.02);
+    
+}
+.product-item img {
+    height: 230px;
+}
+.bi-heart-fill{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: rgba(227, 242, 255, 0.856);
+    cursor: pointer;
+    font-size: 25px;
+    transition: all .4s ease;
+}
+.bi-heart-fill:hover{
+    transform: scale(1.2);
+    color: greenyellow;
+}
+#basket td img{
+    width: 100px;
+    border-radius: 10px;
+}
+#basket td.price{
+    font-size: 15px;
+    color: green;
+    font-weight: 600;
+}
+#basket table td{
+    vertical-align: middle;
+}
+#basket table td .bi-trash3{
+    cursor: pointer;
+}
+.bi-trash3:hover{
+    color: yellowgreen;
+}
